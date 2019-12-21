@@ -17,7 +17,7 @@ end
 def find_the_cheese(ary_string) # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if ary_string.collect{|cheese| cheese_types.include?(cheese)} = true
+  if ary_string.find{|cheese| cheese_types.include?(cheese)} = true
     
   
 end
